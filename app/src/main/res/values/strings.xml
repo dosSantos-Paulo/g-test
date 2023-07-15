@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">G-Test</string>
+    <string name="init_test">Iniciar Teste</string>
 </resources>
