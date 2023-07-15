@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/touch_screen_card_tester_default_size"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/spacing_none"
+    android:layout_margin="@dimen/spacing_xxsmall"
+    android:layout_height="@dimen/touch_screen_card_tester_default_size">
+
+</com.google.android.material.card.MaterialCardView>
