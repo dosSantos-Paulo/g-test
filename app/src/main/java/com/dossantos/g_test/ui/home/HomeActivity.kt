@@ -16,9 +16,10 @@ class HomeActivity : AppCompatActivity() {
 
     private fun setupClickListener() = with(binding) {
         buttonInitTest.setOnClickListener { navigateToTouchScreenTest() }
+        buttonInitAutoTest.setOnClickListener { navigateToTouchScreenTest(true) }
     }
 
-    private fun navigateToTouchScreenTest() {
-        TouchScreenTestActivity.startActivity(this)
+    private fun navigateToTouchScreenTest(runAutoModel: Boolean = false) {
+        TouchScreenTestActivity.startActivity(this, runAutoModel)
     }
 }
