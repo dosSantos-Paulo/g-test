@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">G-Test</string>
-    <string name="init_test">Iniciar Teste</string>
+    <string name="init_auto_test">Iniciar Teste Automático</string>
+    <string name="init_test">Iniciar Teste Manual</string>
+    <string name="pass">Passou</string>
+    <string name="fail">Falha</string>
+    <string name="test_passed">O teste passou</string>
+    <string name="test_fail">O teste falhou</string>
 </resources>
