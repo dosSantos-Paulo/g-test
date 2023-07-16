@@ -2,9 +2,8 @@
 <resources>
     <!--    Default Values      -->
     <dimen name="default_padding">16dp</dimen>
-    <dimen name="touch_screen_card_tester_default_size">80dp</dimen>
 
     <!--    Default Spacing     -->
     <dimen name="spacing_none">0dp</dimen>
-    <dimen name="spacing_xxsmall">2dp</dimen>
+    <dimen name="spacing_xxsmall">1dp</dimen>
 </resources>
