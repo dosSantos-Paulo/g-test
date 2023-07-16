@@ -15,4 +15,37 @@
         tools:itemCount="50"
         tools:listitem="@layout/view_touch_screen_test_item" />
 
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_passed"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_padding"
+            android:layout_weight="1"
+            android:text="@string/pass"
+            android:textAllCaps="true"
+            android:textColor="@color/green_100"
+            app:cornerRadius="@dimen/spacing_none" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_fail"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_padding"
+            android:layout_weight="1"
+            android:text="@string/fail"
+            android:textAllCaps="true"
+            android:textColor="@color/red_100"
+            app:cornerRadius="@dimen/spacing_none" />
+
+    </LinearLayout>
 </FrameLayout>

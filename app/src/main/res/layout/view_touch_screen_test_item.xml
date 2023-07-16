@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/touch_screen_card_tester_default_size"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="@dimen/spacing_none"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/grey_100"
+    android:layout_height="match_parent"
     android:layout_margin="@dimen/spacing_xxsmall"
-    android:layout_height="@dimen/touch_screen_card_tester_default_size">
+    app:cardCornerRadius="@dimen/spacing_none"
+    tools:layout_height="80dp"
+    tools:layout_width="80dp">
 
 </com.google.android.material.card.MaterialCardView>
