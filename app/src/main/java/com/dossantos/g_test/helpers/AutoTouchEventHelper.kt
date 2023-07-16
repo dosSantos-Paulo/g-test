@@ -22,7 +22,7 @@ class AutoTouchEventHelper private constructor() {
         }
 
         fun View.autoScrollEntireScreen(size: Float = 80F) {
-            isEnabled = true
+            isEnableSession = true
             cardSize = size
             performNewMotion()
         }
